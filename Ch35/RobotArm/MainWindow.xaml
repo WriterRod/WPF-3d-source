@@ -1,0 +1,54 @@
+﻿<Window x:Class="RobotArm.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RobotArm"
+        mc:Ignorable="d"
+        Title="RobotArm"
+        Height="600" Width="400"
+        Loaded="Window_Loaded">
+    <Grid Name="mainGrid" Background="LightGreen">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Border Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" Background="White">
+            <Viewport3D Name="mainViewport"/>
+        </Border>
+        
+        <Label Grid.Row="1" Grid.Column="0" Content="Base"/>
+        <Slider Grid.Row="1" Grid.Column="1"
+            Name="baseSlider" ValueChanged="baseSlider_ValueChanged"
+            Minimum="-180" Maximum="180" Value="0"/>
+
+        <Label Grid.Row="2" Grid.Column="0" Content="Shoulder"/>
+        <Slider Grid.Row="2" Grid.Column="1"
+            Name="shoulderSlider" ValueChanged="shoulderSlider_ValueChanged"
+            Minimum="-160" Maximum="160"/>
+
+        <Label Grid.Row="3" Grid.Column="0" Content="Elbow"/>
+        <Slider Grid.Row="3" Grid.Column="1"
+            Name="elbowSlider" ValueChanged="elbowSlider_ValueChanged"
+            Minimum="-160" Maximum="160"/>
+
+        <Label Grid.Row="4" Grid.Column="0" Content="Wrist"/>
+        <Slider Grid.Row="4" Grid.Column="1"
+            Name="wristSlider" ValueChanged="wristSlider_ValueChanged"
+            Minimum="-180" Maximum="180"/>
+
+        <Label Grid.Row="5" Grid.Column="0" Content="Hand"/>
+        <Slider Grid.Row="5" Grid.Column="1"
+            Name="handSlider" ValueChanged="handSlider_ValueChanged"
+            Minimum="0" Maximum="0.5"/>
+    </Grid>
+</Window>

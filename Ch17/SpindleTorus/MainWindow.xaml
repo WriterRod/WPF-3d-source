@@ -1,0 +1,16 @@
+﻿<Window x:Class="SpindleTorus.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SpindleTorus"
+        mc:Ignorable="d"
+        Title="SpindleTorus"
+        Height="400" Width="400"
+        Loaded="Window_Loaded">
+    <Grid Name="mainGrid">
+        <Border Background="White">
+            <Viewport3D Name="mainViewport"/>
+        </Border>
+    </Grid>
+</Window>

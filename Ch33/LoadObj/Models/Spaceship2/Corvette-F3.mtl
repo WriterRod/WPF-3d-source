@@ -1,0 +1,19 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 17.01.2017 18:59:09
+
+newmtl SF_Corvette_F3
+	Ns 19.999998
+	Ni 1.500000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 1.000000 1.000000 1.000000
+	Kd 1.000000 1.000000 1.000000
+	Ks 1.260000 1.260000 1.260000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka SF_Corvette-F3_diffuse.jpg
+	map_Kd SF_Corvette-F3_diffuse.jpg
+	map_Ke SF_Corvette-F3_glow.jpg
+	map_bump SF_Corvette-F3_bump.jpg
+	bump SF_Corvette-F3_bump.jpg

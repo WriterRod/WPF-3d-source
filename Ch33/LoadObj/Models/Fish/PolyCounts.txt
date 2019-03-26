@@ -1,0 +1,61 @@
+TropicalFish01 
+	Quads: 260
+	Tris: 516
+	Verts: 260
+TropicalFish02 
+	Quads: 238
+	Tris: 476
+	Verts: 240
+TropicalFish03 
+	Quads: 318
+	Tris: 636
+	Verts: 320
+TropicalFish04
+	Quads: 266
+	Tris: 528
+	Verts: 266
+TropicalFish05 
+	Quads: 364
+	Tris: 728
+	Verts: 366
+TropicalFish06 
+	Quads: 324
+	Tris: 648
+	Verts: 326
+TropicalFish07 
+	Quads: 364
+	Tris: 724
+	Verts: 364
+TropicalFish08 
+	Quads: 256
+	Tris: 512
+	Verts: 258
+TropicalFish09 
+	Quads: 294
+	Tris: 588
+	Verts: 296
+TropicalFish10 
+	Quads: 239
+	Tris: 474
+	Verts: 240
+TropicalFish11 
+	Quads: 364
+	Tris: 724
+	Verts: 364
+TropicalFish12 
+	Quads: 360
+	Tris: 716
+	Verts: 360
+TropicalFish13 
+	Quads: 256
+	Tris: 508
+	Verts: 256
+TropicalFish14 
+	Quads: 302
+	Tris: 600
+	Verts: 302
+TropicalFish15 
+	Quads: 316
+	Tris: 624
+	Verts: 314
+	

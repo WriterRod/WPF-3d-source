@@ -1,0 +1,39 @@
+newmtl old_build_01_windows_door
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 0.000000 0.000000
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd old-build-tex01-diffuse.jpg
+
+newmtl old_build_03_base
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 1.000000 0.000000
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd old-build-tex03-diffuse.jpg
+
+newmtl old_build_02_upper
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd old-build-tex02-diffuse.jpg
+
+newmtl old_build_04_roof
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 0.000000
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd old-build-tex03-diffuse.jpg

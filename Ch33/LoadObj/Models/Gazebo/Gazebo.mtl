@@ -1,0 +1,79 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 22.10.2016 18:04:10
+
+newmtl Wood_gazebo
+	Ns 20.0000
+	Ni 1.6000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.8910 0.8910 0.8910
+	Ke 0.0000 0.0000 0.0000
+	map_Ka wood-1_d.jpg
+	map_Kd wood-1_d.jpg
+	map_Ks wood-1_r_1.jpg
+	map_bump wood-1_b.jpg
+	bump wood-1_b.jpg
+
+newmtl Leaf
+	Ns 50.0000
+	Ni 1.6000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.0471 0.0431 0.0118
+	Ks 0.8640 0.8640 0.8640
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Leaves_2.png
+	map_Kd Leaves_2.png
+	map_Ks Leaves_2_r.jpg
+	map_d Leaves_2_opacity.jpg
+	map_bump Leaves_2_r.jpg
+	bump Leaves_2_r.jpg
+
+newmtl Wood_white
+	Ns 50.0000
+	Ni 1.6000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_bump Wood_Painted_white_b.jpg
+	bump Wood_Painted_white_b.jpg
+
+newmtl Roof_gazebo
+	Ns 49.0000
+	Ni 1.6000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.8314 0.0627 0.0627
+	Ks 0.8730 0.8730 0.8730
+	Ke 0.0000 0.0000 0.0000
+	map_bump Dirt map.png
+	bump Dirt map.png
+	map_refl Dirt map.png
+
+newmtl Metal
+	Ns 50.0000
+	Ni 1.6000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.0000 0.0000 0.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_refl RM_Falloff.tga

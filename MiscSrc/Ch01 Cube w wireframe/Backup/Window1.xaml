@@ -1,0 +1,17 @@
+﻿<Window x:Class="Interlocked.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Tetrahedron"
+    Height="600" Width="600"
+    Loaded="Window_Loaded"
+    PreviewKeyDown="Window_KeyDown"
+    PreviewMouseWheel="Window_PreviewMouseWheel"
+    >
+    <Grid>
+        <Border Name="MainBorder" Background="White"
+            Grid.Row="0" Grid.Column="0"
+            MouseDown="MainBorder_MouseDown">
+            <Viewport3D Name="MainViewport"/>
+        </Border>
+    </Grid>
+</Window>

@@ -1,0 +1,50 @@
+﻿<Window x:Class="ParametricSurfaces2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ParametricSurfaces2"
+        mc:Ignorable="d"
+        Title="ParametricSurfaces2"
+        Height="500" Width="500"
+        Loaded="Window_Loaded">
+    <Grid Name="mainGrid">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <WrapPanel Grid.Row="0" Orientation="Horizontal" Background="LightGreen">
+            <WrapPanel.Resources>
+                <Style TargetType="RadioButton">
+                    <Setter Property="Margin" Value="5"/>
+                    <Setter Property="Width" Value="100"/>
+                </Style>
+                <Style TargetType="CheckBox">
+                    <Setter Property="Margin" Value="5"/>
+                    <Setter Property="Width" Value="100"/>
+                </Style>
+            </WrapPanel.Resources>
+            <CheckBox Name="axesCheckBox" Content="Axes" Click="Option_Click" IsChecked="True"/>
+            <CheckBox Name="frontfacesCheckBox" Content="Front Faces" Click="Option_Click" IsChecked="True"/>
+            <CheckBox Name="backfacesCheckBox" Content="Backfaces" Click="Option_Click" IsChecked="True"/>
+            <CheckBox Name="wireframeCheckBox" Content="Wireframe" Click="Option_Click" IsChecked="True"/>
+            <RadioButton Name="bonbonRadioButton" Content="Bonbon" Click="Option_Click" IsChecked="True"/>
+            <RadioButton Name="catalanRadioButton" Content="Catalan" Click="Option_Click"/>
+            <RadioButton Name="catenoidRadioButton" Content="Catenoid" Click="Option_Click"/>
+            <RadioButton Name="cosinusRadioButton" Content="Cosinus" Click="Option_Click"/>
+            <RadioButton Name="enneperRadioButton" Content="Enneper" Click="Option_Click"/>
+            <RadioButton Name="helicoidalRadioButton" Content="Helicoidal" Click="Option_Click"/>
+            <RadioButton Name="helixRadioButton" Content="Helix" Click="Option_Click"/>
+            <RadioButton Name="hexaedronRadioButton" Content="Hexaedron" Click="Option_Click"/>
+            <RadioButton Name="hyperhelicoidalRadioButton" Content="Hyperhelicoidal" Click="Option_Click"/>
+            <RadioButton Name="kleinRadioButton" Content="Klein" Click="Option_Click"/>
+            <RadioButton Name="shellRadioButton" Content="Shell" Click="Option_Click"/>
+            <RadioButton Name="torusRadioButton" Content="Torus" Click="Option_Click"/>
+            <RadioButton Name="sphereRadioButton" Content="Sphere" Click="Option_Click"/>
+            <RadioButton Name="breatherRadioButton" Content="Breather" Click="Option_Click"/>
+        </WrapPanel>
+        <Border Grid.Row="1" Name="MainBorder" Background="White">
+            <Viewport3D Name="mainViewport"/>
+        </Border>
+    </Grid>
+</Window>

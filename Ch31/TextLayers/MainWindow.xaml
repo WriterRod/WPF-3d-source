@@ -1,0 +1,24 @@
+﻿<Window x:Class="TextLayers.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TextLayers"
+        mc:Ignorable="d"
+        Title="TextLayers"
+        Height="400" Width="400"
+        Loaded="Window_Loaded">
+    <Grid Name="mainGrid" Background="White">
+        <Canvas Name="backCanvas" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+            <Label Content="Text in Back" FontSize="30" Canvas.Top="50"/>
+        </Canvas>
+
+        <Border Name="MainBorder">
+            <Viewport3D Name="mainViewport"/>
+        </Border>
+
+        <Canvas Name="foreCanvas" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+            <Label Content="Text on Top" FontSize="30" Canvas.Top="100"/>
+        </Canvas>
+    </Grid>
+</Window>

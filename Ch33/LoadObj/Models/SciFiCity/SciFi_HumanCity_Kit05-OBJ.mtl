@@ -1,0 +1,7 @@
+newmtl SciFi_Map01
+Kd 1 0 0
+map_Kd SciFi_HumanCity_Diffuse-Map.jpg
+
+newmtl SciFi_LightsMap
+Kd 0 1 0
+map_Kd SciFi_HumanCity_Diffuse-lights-Map.jpg

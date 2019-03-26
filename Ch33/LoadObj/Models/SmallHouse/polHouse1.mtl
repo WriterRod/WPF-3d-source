@@ -1,0 +1,16 @@
+# 
+# Wavefront material file
+# Converted by the DEEP Exploration  3.5.10.1242
+# Right Hemisphere, LTD
+# http://www.righthemisphere.com/
+# 
+
+newmtl _1___Default
+Ka 0.5882 0.5882 0.5882
+Kd 0.5882 0.5882 0.5882
+Ks 0.9 0.9 0.9
+illum 2
+Ns 13.9288
+map_Kd phouse_d.jpg
+map_bump phouse_m.jpg
+bump phouse_m.jpg

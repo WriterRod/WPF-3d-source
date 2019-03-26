@@ -1,0 +1,43 @@
+﻿<Window x:Class="MengerSponge.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MengerSponge"
+        mc:Ignorable="d"
+        Title="MengerSponge"
+        Height="400" Width="400"
+        Loaded="Window_Loaded">
+    <Grid Name="MainGrid">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.Resources>
+            <Style TargetType="Label">
+                <Setter Property="VerticalAlignment" Value="Center"/>
+            </Style>
+            <Style TargetType="TextBox">
+                <Setter Property="VerticalAlignment" Value="Center"/>
+                <Setter Property="HorizontalContentAlignment" Value="Right"/>
+                <Setter Property="Margin" Value="0,0,15,0"/>
+                <Setter Property="Width" Value="30"/>
+            </Style>
+        </Grid.Resources>
+        <Border Grid.Row="0" Name="MainBorder" Background="White">
+            <Viewport3D Name="mainViewport"/>
+        </Border>
+
+        <StackPanel Grid.Row="1" Background="LightGreen">
+            <Button Content="Generate" Width="75" Margin="0,5,0,0"
+                Name="generateButton" Click="generateButton_Click"/>
+
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Depth"/>
+                <TextBox Text="2" Name="depthTextBox"/>
+                <Label Content="Width"/>
+                <TextBox Text="4" Name="widthTextBox"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

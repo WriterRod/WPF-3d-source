@@ -1,0 +1,287 @@
+newmtl unknown
+Ns 10.0000
+Kd 0 1 0
+
+newmtl donut1top
+Ns 10.0000
+Kd 1 0.5 0
+
+newmtl donut1bottom
+Ns 10.0000
+Kd 1.0 0.9 0.6
+
+newmtl donut2top
+Ns 10.0000
+Kd 0.5 0 0.5
+
+newmtl donut2bottom
+Ns 10.0000
+Kd 1.0 0.9 0.6
+
+newmtl donut3bottom
+Ns 10.0000
+Kd 1.0 0.9 0.6
+
+newmtl donut3top
+Ns 10.0000
+Kd 0.5 0.3 0.1
+
+newmtl donut4top
+Ns 10.0000
+Kd 1 1 0.4
+
+newmtl donut4bottom
+Ns 10.0000
+Kd 0.5 0.45 0.3
+
+newmtl donut5top
+Ns 10.0000
+Kd 1 0.5 0
+
+newmtl donut5bottom
+Ns 10.0000
+Kd 0.5 0.45 0.3
+
+newmtl donut6top
+Ns 10.0000
+Kd 0.6 0.2 0.2
+
+newmtl donut6bottom
+Ns 10.0000
+Kd 0.5 0.45 0.3
+
+newmtl plate
+Ns 80.0000
+Kd 1.0 1.0 1.0
+
+newmtl hotdog
+Ns 10.0000
+map_Kd hotdog.png
+
+newmtl cooler
+Ns 80.0000
+Kd 0.2 0.2 0.2
+
+newmtl art1
+Ns 10.0000
+Kd 1.0 0 0
+map_Kd 15.jpg
+
+newmtl art2
+Ns 10.0000
+Kd 1.0 0 0
+map_Kd 14.jpg
+
+newmtl art3
+Ns 10.0000
+Kd 1.0 0 0
+map_Kd 12.jpg
+
+newmtl art4
+Ns 10.0000
+Kd 1.0 0 0
+map_Kd 10.jpg
+
+newmtl art5
+Ns 10.0000
+Kd 1.0 0 0
+map_Kd 11.jpg
+
+newmtl paper
+Ns 10.0000
+Kd 1.0 0 0
+map_Kd paper.png
+
+newmtl unknown1
+Ns 10.0000
+Kd 0 1 1
+
+newmtl unknown2
+Ns 10.0000
+Kd 0 1 1
+
+newmtl unknown3
+Ns 10.0000
+Kd 0 1 1
+
+newmtl unknown4
+Ns 10.0000
+Kd 0 1 1
+
+newmtl unknown5
+Ns 10.0000
+Kd 0 1 1
+
+newmtl unknown6
+Ns 10.0000
+Kd 0 1 1
+
+newmtl unknown7
+Ns 10.0000
+Kd 0 1 1
+
+newmtl unknown8
+Ns 10.0000
+Kd 0 1 1
+
+newmtl unknown9
+Ns 10.0000
+Kd 0 1 1
+
+newmtl unknown10
+Ns 10.0000
+Kd 0 1 1
+
+newmtl unknown11
+Ns 10.0000
+Kd 0 1 1
+
+newmtl unknown12
+Ns 10.0000
+Kd 0 1 1
+
+newmtl unknown13
+Ns 10.0000
+Kd 0 1 1
+
+newmtl unknown14
+Ns 10.0000
+Kd 0 1 1
+
+newmtl bulletin_board
+Ns 10.0000
+Kd 0.871 0.722 0.529
+
+newmtl stool_seat
+Ns 10.0000
+Kd 0.863 0.078 0.235
+
+newmtl stool_post
+Ns 100.0000
+Kd 0.7 0.7 0.7
+
+newmtl box
+Ns 100.0000
+Kd 0.7 0.7 0.7
+map_Kd 1.jpg
+
+newmtl tray
+Ns 10.0000
+Kd 1 1 1
+
+newmtl mustard
+Ns 10.0000
+Kd 1 1 0
+
+newmtl catsup
+Ns 10.0000
+Kd 1 0 0
+
+newmtl magazine1
+Ns 10.0000
+Kd 1.0 0 0
+map_Kd 15.jpg
+
+newmtl magazine1a
+Ns 10.0000
+Kd 1.0 0 0
+map_Kd 15.jpg
+
+newmtl magazine2
+Ns 10.0000
+Kd 1.0 0 0
+map_Kd 11.jpg
+
+newmtl magazine2a
+Ns 10.0000
+Kd 1.0 0 0
+map_Kd 11.jpg
+
+newmtl magazine3
+Ns 10.0000
+Kd 1.0 0 0
+map_Kd 13.jpg
+
+newmtl magazine3a
+Ns 10.0000
+Kd 1.0 0 0
+map_Kd 13.jpg
+
+newmtl magazine4
+Ns 10.0000
+Kd 1.0 0 0
+map_Kd 10.jpg
+
+newmtl magazine4a
+Ns 10.0000
+Kd 1.0 0 0
+map_Kd 10.jpg
+
+newmtl counter
+Ns 10.0000
+Kd 1.0 0 0
+map_Kd 3.jpg
+
+newmtl table_post
+Ns 100.0000
+Kd 0.7 0.7 0.7
+
+newmtl table_top
+Ns 100.0000
+Kd 0.7 0.7 0.7
+map_Kd 3.jpg
+
+newmtl open_sign
+Ns 100.0000
+Kd 0.7 0.7 0.7
+map_Kd open.png
+
+newmtl window
+Ns 100.0000
+Kd 0.95 0.95 1.0
+
+newmtl door_frame
+Ns 100.0000
+Kd 0.8 0.8 0.8
+
+newmtl window_frame
+Ns 100.0000
+Kd 0.8 0.8 0.8
+
+newmtl booth_seat
+Ns 100.0000
+Kd 0.980 0.502 0.447
+
+newmtl booth_side
+Ns 100.0000
+Kd 1.0 0.9 0.9
+
+newmtl booth_leg
+Ns 100.0000
+Kd 0 0 0
+
+newmtl foot_rest
+Ns 100.0000
+Kd 0.7 0.7 0.7
+
+newmtl floor
+Ns 80.0000
+Kd 0.7 0.7 0.7
+map_Kd mosaic_83.jpg
+
+newmtl wall
+Ns 100.0000
+Kd 1.0 0.9 0.9
+
+newmtl coffee_maker
+Ns 100.0000
+Kd 1 1 1
+
+newmtl coffee
+Ns 20.0000
+Kd 0.7 0.7 0.7
+map_Kd Coffee.jpg
+
+newmtl coffee_cup
+Ns 100.0000
+Kd 1 1 1

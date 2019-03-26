@@ -1,0 +1,34 @@
+﻿<Window x:Class="Oblique.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Oblique"
+        mc:Ignorable="d"
+        Title="Oblique"
+        Height="300" Width="500"
+        Loaded="Window_Loaded">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="35"/>
+        </Grid.RowDefinitions>
+        <Grid.Resources>
+            <Style TargetType="Label">
+                <Setter Property="FontFamily" Value="Arial"/>
+                <Setter Property="FontSize" Value="25"/>
+                <Setter Property="HorizontalAlignment" Value="Center"/>
+            </Style>
+        </Grid.Resources>
+
+        <Viewport3D Name="viewport1" Grid.Row="0" Grid.Column="0" />
+        <Label Grid.Row="1" Grid.Column="0" Content="Cavalier"/>
+
+        <Viewport3D Name="viewport2" Grid.Row="0" Grid.Column="1" />
+        <Label Grid.Row="1" Grid.Column="1" Content="Cabinet"/>
+    </Grid>
+</Window>

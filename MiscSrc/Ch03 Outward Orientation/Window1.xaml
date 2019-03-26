@@ -1,0 +1,39 @@
+﻿<Window x:Class="Interlocked.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Cube"
+    Height="400" Width="400"
+    Loaded="Window_Loaded"
+    >
+    <Grid>
+        <Viewport3D Name="MainViewport">
+
+            <Viewport3D.Camera>
+                <PerspectiveCamera 
+                    Position = "1.5, 2, 3"
+                    LookDirection = "-1.5, -2, -3"
+                    UpDirection = "0, 1, 0"
+                    FieldOfView = "60">
+                    <PerspectiveCamera.Transform>
+                        <Transform3DGroup>
+                            <RotateTransform3D>
+                                <RotateTransform3D.Rotation>
+                                    <AxisAngleRotation3D
+                              Axis="0 1 0" 
+                              Angle="{Binding ElementName=hscroll, Path=Value}" />
+                                </RotateTransform3D.Rotation>
+                            </RotateTransform3D>
+                            <RotateTransform3D>
+                                <RotateTransform3D.Rotation>
+                                    <AxisAngleRotation3D
+                              Axis="1 0 0" 
+                              Angle="{Binding ElementName=vscroll, Path=Value}" />
+                                </RotateTransform3D.Rotation>
+                            </RotateTransform3D>
+                        </Transform3DGroup>
+                    </PerspectiveCamera.Transform>
+                </PerspectiveCamera>
+            </Viewport3D.Camera>
+        </Viewport3D>
+    </Grid>
+</Window>

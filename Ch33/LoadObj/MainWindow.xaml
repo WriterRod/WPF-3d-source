@@ -1,0 +1,38 @@
+﻿<Window x:Class="LoadObj.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LoadObj"
+        mc:Ignorable="d"
+        Title="LoadObj"
+        Height="400" Width="400"
+        Loaded="Window_Loaded">
+    <Window.CommandBindings>
+        <CommandBinding Command="Open" Executed="OpenCommandBinding_Executed"/>
+    </Window.CommandBindings>
+    <Window.InputBindings>
+        <KeyBinding Key="O" Modifiers="Control" Command="Open"/>
+    </Window.InputBindings>
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <Menu.Resources>
+                <Style TargetType="CheckBox">
+                    <Setter Property="Width" Value="90"/>
+                </Style>
+            </Menu.Resources>
+            <MenuItem Header="_File">
+                <MenuItem Header="_Open..." Command="Open" InputGestureText="Ctrl+O"/>
+                <Separator />
+                <MenuItem Header="_Exit" Click="ExitMenu_Click"/>
+            </MenuItem>
+            <Separator/>
+            <CheckBox Content="Invert Textures" Name="invertTexturesCheckBox" IsChecked="True"/>
+            <CheckBox Content="Z is Up" Name="zisUpCheckBox"/>
+            <CheckBox Content="Axes" Name="axesCheckBox"/>
+        </Menu>
+        <Grid Name="mainGrid" Background="White">
+            <Viewport3D Name="mainViewport" MouseDown="mainViewport_MouseDown"/>
+        </Grid>
+    </DockPanel>
+</Window>
